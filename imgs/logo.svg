@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop HD@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
+            <stop stop-color="#CBFFD6" offset="0%"></stop>
+            <stop stop-color="#A0FFEA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-3812.000000, -5200.000000)">
+            <circle id="Oval-10" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="3837" cy="5225" r="25"></circle>
+            <text id="Blair" font-family="DhanikansSignatureItalic-Italic, Dhanikans Signature Italic" font-size="14" font-style="italic" font-weight="normal" letter-spacing="0.680555582" fill="#4A4A4A">
+                <tspan x="3816" y="5230">Blair</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

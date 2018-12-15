@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html id = "base" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--<link rel="shortcut icon" href="images/signature_vertical_U_white.png" />-->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title >Blair Shen</title>
+</head>
+
+<body>
+<header class="header">
+    <div class="header-logo">
+         <a href="index.html">
+            <img src="imgs/logo.svg" alt="my page"/>
+        </a>
+    </div>
+
+    <nav class="header-nav">
+        <ul>
+            <li><a href = "graphic.html" ><div class="header-item">Graphic Design</div></a></li>
+            <li><a href = "projects.html" ><div class="header-item">Projects</div></a></li>
+            <li><a href = "hometown.html" ><div class="header-item">Hometown</div></a></li>
+         </ul>
+        
+    </nav>
+    
+</header>
+
+<main>
+    <button class="skip-to-main" onclick="(_ => document.querySelector('.main-content').focus())()">Skip to Main Content</button>
+    <div class="greeting">
+        <h1 class="main-content" tabindex="-1">The Unique Beauty of Taiwan</h1>
+        <p>Taiwan, 180km east of China, is known for modern cities, traditional Chinese temples, hot springs resorts and dramatic mountainous terrain. Taipei, in the north, has a number of busy night markets, as well as Chinese Imperial art at the National Palace Museum. Taipei 101, a 509m-tall, bamboo-shaped skyscraper with an observation deck, rises above the city. As far as Asian countries go, Taiwan is not very big. It is home to about 23 million people, compared to 127 million in Japan, and, you know, 1.4 billion in China. Even so, every autumn Taiwan hosts the largest gay pride parade in Asia. This year, more than 130,000 people showed up to march. The reason such a small country hosts such a large parade is that Taiwan has become the most LGBT-friendly country in Asia. Last year, for example, its highest court declared that same-sex marriage would be legal within two years, a first in the region.</p>
+    </div>
+
+<a id="taiwan"></a>
+<div class="buttons">
+      <button type="button" class="button" data-filter="all">All</button>
+      <button type="button" class="button" data-filter=".north">Northern Taiwan</button>
+      <button type="button" class="button" data-filter=".south">Southern Taiwan</button>
+</div>
+
+<div class = "container"> 
+      <div class="mix north"><a href="./imgs/Arch_1.png" data-lightbox="gallery" data-title="Fujian Tulou" aria-label="Fujian Tulou">
+        <img src="imgs/Arch_thumb_1.png" alt="Fujian Tulou"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Nat_1.png" data-lightbox="gallery" data-title="Penghu" aria-label="Penghu">
+        <img src="imgs/Nat_thumb_1.png" alt="Penhu"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Arch_2.png" data-lightbox="gallery" data-title="Jiguopai Old Church" aria-label="Jiguopai Old Church">
+        <img src="imgs/Arch_thumb_2.png" alt="Jiguopai Old Church"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Nat_2.png" data-lightbox="gallery" data-title="Kenting" aria-label="Kenting">
+        <img src="imgs/Nat_thumb_2.png" alt="Kenting"></a>
+      </div>
+
+      <div class="mix north"><a href="./imgs/Arch_3.png" data-lightbox="gallery" data-title="Matsu" aria-label="Matsu">
+        <img src="imgs/Arch_thumb_3.png" alt="Matsu"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Nat_3.png" data-lightbox="gallery" data-title="Sun Moon Lake" aria-label="Sun Moon Lake">
+        <img src="imgs/Nat_thumb_3.png" alt="Sun Moon Lake"></a>
+      </div>
+
+      <div class="mix north"><a href="./imgs/Arch_4.png" data-lightbox="gallery" data-title="Jukuiju" aria-label="Jukuiju">
+        <img src="imgs/Arch_thumb_4.png" alt="Jukuiju"></a>
+      </div>
+
+      <div class="mix north"><a href="./imgs/Nat_4.png" data-lightbox="gallery" data-title="Shei-Pa National Park" aria-label="Shei-Pa National Park">
+        <img src="imgs/Nat_thumb_4.png" alt="Shei-Pa National Park"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Arch_5.png" data-lightbox="gallery" data-title="Kinmen" aria-label="Kinmen">
+        <img src="imgs/Arch_thumb_5.png" alt="Kinmen"></a>
+      </div>
+
+      <div class="mix south"><a href="./imgs/Arch_6.png" data-lightbox="gallery" data-title="Fort Provintia" aria-label="Fort Provintia">
+        <img src="imgs/Arch_thumb_6.png" alt="Fort Provintia"></a>
+      </div>
+
+
+            
+    </div>
+
+</main>
+            <footer class="footer">
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/yu-yin-shen/" class = "footer-icon" aria-label="Blair's LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://www.instagram.com/yuyinshen/?hl=en" class = "footer-icon" aria-label="Blair's email"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://www.blairux.me/" class = "footer-icon" aria-label="Blair's phone"><i class="fas fa-phone-square fa-2x"></i></a>
+                </div>
+                
+                    <p>&copy; Yu-Yin Shen. All rights reserved</p>
+            </footer>
+            <script src="js/mixitup.min.js"></script>
+           <script src="js/lightbox-plus-jquery.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+            <script>var containerEl = document.querySelector('.container'); var mixer = mixitup(containerEl);</script>
+</body>
+</html>
